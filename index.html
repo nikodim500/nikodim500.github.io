@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f9fe">
-  <meta name="description" content="Nikolay Chetverikov — independent software development, solution architecture and systems integration based in Greater Manchester, UK.">
+  <meta name="description" content="Nikolay Chetverikov combines 30 years of IT experience with modern AI-assisted development to deliver software, architecture and end-to-end business solutions.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="chetverikov.pro | Data · Products · Solutions">
-  <meta property="og:description" content="Software development, IT architecture and systems integration.">
+  <meta property="og:description" content="30 years of IT experience. AI-accelerated software development, architecture and end-to-end delivery.">
   <title>chetverikov.pro | Data · Products · Solutions</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <style>
@@ -35,6 +35,8 @@
     h1{font-size:clamp(42px,4.8vw,66px);letter-spacing:-.058em;line-height:1.09;margin:23px 0 23px;font-weight:770}
     h1 em{font-style:normal;background:linear-gradient(115deg,#20c9ed 4%,#1977ff 88%);background-clip:text;-webkit-background-clip:text;color:transparent}
     .hero p{font-size:17px;color:var(--muted);line-height:1.75;max-width:545px;margin:0 0 32px}
+    .hero-value{font-size:15px;font-weight:750;line-height:1.5;color:#0c376c;margin:-4px 0 17px}
+    .hero-value span{color:#137fc4}
     .actions{display:flex;flex-wrap:wrap;gap:13px;align-items:center}
     .button{display:inline-flex;align-items:center;justify-content:center;gap:11px;background:var(--blue);color:#fff;text-decoration:none;border-radius:11px;padding:15px 23px;font-weight:700;font-size:14px;box-shadow:0 10px 25px rgba(23,123,255,.2);transition:transform .2s,box-shadow .2s}
     .button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(23,123,255,.3)}
@@ -60,6 +62,7 @@
     .label{font-size:12px;color:#0f86cc;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
     h2{font-size:clamp(30px,3.1vw,42px);line-height:1.2;letter-spacing:-.045em;margin:14px 0 16px}
     .section-heading p,.about-copy p{font-size:16px;line-height:1.8;color:var(--muted);margin:0}
+    .about-copy p+p{margin-top:14px}
     .services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
     .card{padding:4px 25px 9px 0;background:transparent;border:0;border-radius:0}
     .card:not(:last-child){border-right:1px solid var(--line)}
@@ -79,6 +82,7 @@
     .about-tag strong{display:block;font-size:14px}.about-tag small{color:var(--muted);display:block;font-size:12px;margin-top:4px}
     .about-panel{border-radius:22px;padding:35px;background:linear-gradient(145deg,#122951,#09254c);color:white;box-shadow:0 24px 55px #15365d20}
     .about-panel .quote{font-size:25px;line-height:1.48;letter-spacing:-.035em;font-weight:550}
+    .about-panel .panel-kicker{font-size:11px;line-height:1.5;letter-spacing:.09em;text-transform:uppercase;color:#76dcf8;font-weight:800;margin-bottom:23px}
     .about-panel .quote strong{color:#60d9f5}
     .about-panel .place{border-top:1px solid #ffffff30;margin-top:35px;padding-top:20px;color:#bfcee5;font-size:13px}
     .contact-wrap{padding:72px 65px;border-radius:26px;background:linear-gradient(120deg,#0a234a,#12417f);color:white;display:flex;justify-content:space-between;align-items:center;gap:35px;position:relative;overflow:hidden}
@@ -115,7 +119,8 @@
         <div>
           <div class="eyebrow">Independent technology consultancy</div>
           <h1>From complex ideas to <em>working software.</em></h1>
-          <p>Software development, IT architecture and systems integration. Thoughtful solutions that connect data, applications and real business needs.</p>
+          <div class="hero-value">30 years of IT experience. <span>AI-accelerated delivery.</span></div>
+          <p>I combine decades of experience in software engineering, solution architecture and end-to-end systems delivery with modern AI technologies to build sophisticated business solutions faster and more efficiently.</p>
           <div class="actions"><a class="button" href="mailto:nikolay@chetverikov.pro?subject=Project%20enquiry">Let's talk about your project <span aria-hidden="true">↗</span></a><a class="secondary" href="#services">Explore what I do ↓</a></div>
         </div>
         <div class="hero-graphic" aria-label="Illustration of an integrated software delivery flow">
@@ -146,7 +151,7 @@
         <div class="section-heading"><div class="label">How I work</div><h2>Clear thinking. Practical delivery.</h2><p>A straightforward approach from understanding the challenge to delivering and improving the solution.</p></div>
         <div class="steps">
           <div class="step"><span class="num">01 / UNDERSTAND</span><div class="bar"></div><h3>Discover & design</h3><p>Clarify the real requirements, identify constraints and shape an architecture that fits.</p></div>
-          <div class="step"><span class="num">02 / BUILD</span><div class="bar"></div><h3>Deliver & connect</h3><p>Build the application or integration with attention to maintainability and usability.</p></div>
+          <div class="step"><span class="num">02 / BUILD</span><div class="bar"></div><h3>Deliver & connect</h3><p>Use AI-assisted development and testing to move faster while keeping maintainability, usability and quality in focus.</p></div>
           <div class="step"><span class="num">03 / IMPROVE</span><div class="bar"></div><h3>Optimise & evolve</h3><p>Refine performance, simplify workflows and keep improving after launch.</p></div>
         </div>
       </div>
@@ -155,10 +160,11 @@
       <div class="wrap about-inner">
         <div class="about-copy">
           <div class="label">About</div><h2>Bringing architecture and engineering together.</h2>
-          <p>I'm Nikolay Chetverikov, an independent software developer and IT solution architect based in Greater Manchester, UK. I work at the intersection of business requirements, software engineering and enterprise integration.</p>
+          <p>I'm Nikolay Chetverikov, an independent software developer and IT solution architect based in Greater Manchester, UK. I bring 30 years of experience across software engineering, enterprise architecture and delivering complete IT systems.</p>
+          <p>I work independently and use modern AI tools to accelerate development, testing and documentation. The architecture, technical decisions and responsibility for the finished solution remain mine. This means senior-level expertise and end-to-end delivery without the overhead of a traditional development team.</p>
           <div class="about-tag"><div class="avatar">NC</div><div><strong>Nikolay Chetverikov</strong><small>Software Development · IT Architecture · Integration</small></div></div>
         </div>
-        <aside class="about-panel"><div class="quote">Good solutions don't just look right on a diagram. <strong>They work in the real world.</strong></div><div class="place">Based in Greater Manchester · Working remotely</div></aside>
+        <aside class="about-panel"><div class="panel-kicker">Human expertise. AI-powered execution.</div><div class="quote">Good solutions don't just look right on a diagram. <strong>They work in the real world.</strong></div><div class="place">Based in Greater Manchester · Working remotely</div></aside>
       </div>
     </section>
     <section class="content" id="contact" style="padding-top:15px">
